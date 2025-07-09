@@ -1,21 +1,11 @@
 'use client';  
 import React, { useState } from 'react';
-import { 
-  ChevronDownIcon, 
-  GlobeIcon, 
-  ArrowLeftIcon, 
-  ArrowRightIcon, 
-  MoreVerticalIcon 
-} from 'lucide-react';
-
-// Complete Dashboard Component for Next.js
-const Dashboard = () => {
-  const [currentPage, setCurrentPage] = useState(1);
-
-  // Navigation menu items data
+ 
+const Dashboard = () => { 
+ 
   const menuItems = [
     {
-      icon: "/vuesax-outline-home-2.svg", // Replace with actual icons
+      icon: "/vuesax-outline-home-2.svg",
       label: "Dashboard",
       active: true,
     },
@@ -454,7 +444,8 @@ const Dashboard = () => {
                 Export <img src="/vuesax-outline-send-2.svg" alt="Export Icon" className="inline-block w-4 h-4" />
               </button>
             </div>
-            <MoreVerticalIcon className="w-5 h-5 text-gray-400 cursor-pointer" />
+            {/* <MoreVerticalIcon className="w-5 h-5 text-gray-400 cursor-pointer" /> */}
+            <img src="/more-vertical.svg" alt="Filter Icon" className="w-5 h-5 text-gray-400 cursor-pointer" />
           </div>
         </div>
 
@@ -502,7 +493,8 @@ const Dashboard = () => {
         <div className="flex items-center justify-between px-6 py-4 border-t border-gray-200">
           <div className="flex items-center gap-2">
             <button className="flex items-center gap-2 px-3 py-2 rounded-lg border border-gray-300 hover:bg-gray-50 transition-colors">
-              <ArrowLeftIcon className="w-4 h-4" />
+              {/* <ArrowLeftIcon className="w-4 h-4" /> */}
+              <img src="/arrow-left.svg" alt="Previous Icon" className="w-4 h-4 inline-block" />
               <span className="text-sm font-medium text-gray-700">Previous</span>
             </button>
           </div>
@@ -521,7 +513,8 @@ const Dashboard = () => {
           <div className="flex items-center gap-2">
             <button className="flex items-center gap-2 px-3 py-2 rounded-lg border border-gray-300 hover:bg-gray-50 transition-colors">
               <span className="text-sm font-medium text-gray-700">Next</span>
-              <ArrowRightIcon className="w-4 h-4" />
+              {/* <ArrowRightIcon className="w-4 h-4" /> */}
+              <img src="/arrow-right.svg" alt="Next Icon" className="w-4 h-4 inline-block" />
             </button>
           </div>
         </div>
@@ -554,7 +547,8 @@ const Dashboard = () => {
                 Export <img src="/vuesax-outline-send-2.svg" alt="Export Icon" className="inline-block w-4 h-4" />
               </button>
             </div>
-            <MoreVerticalIcon className="w-5 h-5 text-gray-400 cursor-pointer" />
+            {/* <MoreVerticalIcon className="w-5 h-5 text-gray-400 cursor-pointer" /> */}
+            <img src="/more-vertical.svg" alt="Filter Icon" className="w-5 h-5 text-gray-400 cursor-pointer" />
           </div>
         </div>
 
@@ -603,7 +597,8 @@ const Dashboard = () => {
         <div className="flex items-center justify-between px-6 py-4 border-t border-gray-200">
           <div className="flex items-center gap-2">
             <button className="flex items-center gap-2 px-3 py-2 rounded-lg border border-gray-300 hover:bg-gray-50 transition-colors">
-              <ArrowLeftIcon className="w-4 h-4" />
+              {/* <ArrowLeftIcon className="w-4 h-4" /> */}
+              <img src="/arrow-left.svg" alt="Previous Icon" className="w-4 h-4 inline-block" />
               <span className="text-sm font-medium text-gray-700">Previous</span>
             </button>
           </div>
@@ -622,7 +617,8 @@ const Dashboard = () => {
           <div className="flex items-center gap-2">
             <button className="flex items-center gap-2 px-3 py-2 rounded-lg border border-gray-300 hover:bg-gray-50 transition-colors">
               <span className="text-sm font-medium text-gray-700">Next</span>
-              <ArrowRightIcon className="w-4 h-4" />
+              {/* <ArrowRightIcon className="w-4 h-4" /> */}
+              <img src="/arrow-right.svg" alt="Next Icon" className="w-4 h-4 inline-block" />
             </button>
           </div>
         </div>
